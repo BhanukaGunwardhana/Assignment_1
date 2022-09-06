@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       Student std1 = new Student("Vimukthi",20,"HillWood");
+       /*Student std1 = new Student("Vimukthi",20,"HillWood");
         Student std2 = new Student("Kasun",21,"HighSchool");
         Student std3 = new Student("Danushka",20,"HighSchool");
         Student std4 = new Student("Ruwan",20,"HillWood");
@@ -44,6 +44,13 @@ public class Main {
             System.out.println("Error");
 
         }*/
+        String x="JAVA BNhkh hasiuhsak gahkcah";
+        String [] arr=x.split(" ");
+        String y="";
+        for(int i=arr.length-1;i>=0;i--){
+            y=y+arr[i]+" ";
+        }
+        System.out.println(y);
 
 
     }
