@@ -20,10 +20,10 @@ public class Main {
         Duplicatefinder finder = new Duplicatefinder(list);
 
 
-        for(Student i:finder.getDistintList()){
+        for(Student i:finder.getDuplicatesList()){
             System.out.println(i.getName()+","+i.getAge()+","+i.getSchool());
         }
-        System.out.println(finder.getStudentByName("Vimukthi").getAge());
+        //System.out.println(finder.getStudentByName("Vimukthi").getAge());
        // finder.getDistintList();
         //finder.getStudentByName("sahan");
 

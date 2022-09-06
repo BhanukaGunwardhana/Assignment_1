@@ -29,7 +29,7 @@ public class Student extends Object {
     @Override
     public boolean equals(Object obj) {
         Student s= (Student) obj;
-        if(this.name==s.getName() || this.age==s.getAge() || this.school==s.getSchool()){return true;}
+        if(this.name==s.getName() && this.age==s.getAge() && this.school==s.getSchool()){return true;}
         else {return false;}
     }
 

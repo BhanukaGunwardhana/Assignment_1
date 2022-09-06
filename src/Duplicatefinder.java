@@ -29,13 +29,15 @@ public class Duplicatefinder extends  Object{
     }
     public List<Student> getDistintList(){
         List<Student>distinct=new ArrayList<Student>();
+
         for (int i=0; i< student.size();i++){
             boolean a=true;
+
             for (int j=i+1;j< student.size();j++){
                 //int counter=0;
                 if(student.get(i).equals(student.get(j))){
                     a=false;
-                    break;
+                   // break;
                 };
 
 
