@@ -33,9 +33,9 @@ public class Duplicatefinder extends  Object{
         for (int i=0; i< student.size();i++){
             boolean a=true;
 
-            for (int j=i+1;j< student.size();j++){
+            for (int j=0;j< student.size();j++){
                 //int counter=0;
-                if(student.get(i).equals(student.get(j))){
+                if(i!=j && student.get(i).equals(student.get(j))){
                     a=false;
                    // break;
                 };

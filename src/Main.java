@@ -23,7 +23,10 @@ public class Main {
         for(Student i:finder.getDuplicatesList()){
             System.out.println(i.getName()+","+i.getAge()+","+i.getSchool());
         }
-        //System.out.println(finder.getStudentByName("Vimukthi").getAge());
+        for(Student i:finder.getDistintList()){
+            System.out.println(i.getName()+","+i.getAge()+","+i.getSchool());
+        }
+        System.out.println(finder.getStudentByName("sahan").getAge());
        // finder.getDistintList();
         //finder.getStudentByName("sahan");
 
