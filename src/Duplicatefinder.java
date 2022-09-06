@@ -49,20 +49,21 @@ public class Duplicatefinder extends  Object{
 
 
         }
-    /*public  Student getStudentByName(String name){
+    public  Student getStudentByName(String name){
         Map<String,Student> map=new HashMap<>();
         for(Student i: student){
             map.put(i.getName(),i);
         }
+        return  map.get(name);
 
-            return null;
+
         }
         //return map.get(name);
 
 
 
-    }*/
+    }
 
 
-}
+
 

@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       /* Student std1 = new Student("Vimukthi",20,"HillWood");
+       Student std1 = new Student("Vimukthi",20,"HillWood");
         Student std2 = new Student("Kasun",21,"HighSchool");
         Student std3 = new Student("Danushka",20,"HighSchool");
         Student std4 = new Student("Ruwan",20,"HillWood");
@@ -26,10 +26,14 @@ public class Main {
         for(Student i:finder.getDistintList()){
             System.out.println(i.getName()+","+i.getAge()+","+i.getSchool());
         }
-        System.out.println(finder.getStudentByName("sahan").getAge());
-       // finder.getDistintList();
-        //finder.getStudentByName("sahan");*/
-        Calculator cal=new Calculator();
+        try{
+        finder.getStudentByName("sahan").getAge();}
+        catch(Exception e){
+            System.out.println("Name is not found");
+        }
+        //finder.getDistintList();
+        //finder.getStudentByName("sahan");
+        /*Calculator cal=new Calculator();
         List<Integer>list=List.of();
         try{
             System.out.println(cal.sum(list));}
@@ -39,7 +43,7 @@ public class Main {
         }catch (Exception e){
             System.out.println("Error");
 
-        }
+        }*/
 
 
     }
